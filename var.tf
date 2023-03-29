@@ -1,6 +1,6 @@
 variable "project_id" {
   description = "The ID of the GCP project."
-  default     = "avian-amulet-378416"
+  default     = "xenon-shard-381922"
 }
 
 variable "bucket_name" {
@@ -8,9 +8,9 @@ variable "bucket_name" {
   type        = list(string)
   default     = [
     "my-test-bucket-latest8999",
-    "mytestbucket8888",
-    "montrealcollege-927218-for-demo",
-    "bucket-full-of-happiness"
+    "mygreatbucket9090",
+    "montrealcollege-90210-for-stars",
+    "bucket-full-of-Joy"
 
   ]
 }
