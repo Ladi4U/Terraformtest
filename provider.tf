@@ -18,7 +18,7 @@ terraform {
     organization = "montrealstars"
 
     workspaces {
-      name = "terraform_cloud_storage_bucket_creation"
+      name = "terraform_mc_test_2023"
     }
   }
 }
