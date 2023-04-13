@@ -9,7 +9,7 @@ terraform {
 
 provider "google" {
   project     = "robust-form-382822"
-  region      = "US"
+  region      = "EU"
 }
 
 
