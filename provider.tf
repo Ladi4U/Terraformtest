@@ -8,8 +8,8 @@ terraform {
 }
 
 provider "google" {
-  project     = "xenon-shard-381922"
-  region      = "us-central1"
+  project     = "robust-form-382822"
+  region      = "US"
 }
 
 
@@ -18,7 +18,7 @@ terraform {
     organization = "montrealstars"
 
     workspaces {
-      name = "terraform_mc_test_2023"
+      name = "Terraformtest"
     }
   }
 }
